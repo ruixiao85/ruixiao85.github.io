@@ -1,4 +1,4 @@
-title = "heyo"
+title = "RuiXiao85.Net"
 theme = "heyo-hugo-theme"
 baseURL = "."
 languageCode = "en"
@@ -28,18 +28,18 @@ paginate = 10
     LanguageName = "中文"
 
 [params.author]
-  name = "Jane Doe"
-  email = "jane@doe.com"
+  name = "Rui Xiao"
+  email = "ruixiao85@gmail.com"
 
 [params]
-  title = "I'm Jane Doe"
-  description = "Call me Jane"
-  profilePicture = "images/profile.png"
+  title = "Rui Xiao, Ph.D."
+  description = "Call me Rui (Ray)"
+  profilePicture = "images/Xiao.jpg"
   favicon = "favicons/"
   customCss = []
   customJs = []
   displayMode = "light"
-  images = ['images/profile.png']
+  images = ['images/Xiao.jpg']
 
 [taxonomies]
   series = 'series'
@@ -56,7 +56,7 @@ paginate = 10
   # JSON that is passed to the sketch constructor
   # You can check all the possible configurations in
   startingConfig = """{
-    "kind": "katakana",
+    "kind": "random",
     "nStreams": 10
   }"""
 
@@ -72,22 +72,22 @@ paginate = 10
 [[params.socialIcons]]
 icon = "fab fa-linkedin" # Font-awesome icon
 title = "Linkedin"
-url = "https://linkedin.com/"
+url = "https://www.linkedin.com/in/rui-xiao-3b4a4859"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/LucasVadilho/heyo-hugo-theme"
+url = "https://github.com/ruixiao85"
 
-[[params.socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+# [[params.socialIcons]]
+# icon = "fab fa-instagram"
+# title = "instagram"
+# url = "https://www.instagram.com/"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:lucas.vadilho@gmail.com"
+url = "mailto:ruixiao85@gmail.com"
 
 # Menu items
 [menu]
