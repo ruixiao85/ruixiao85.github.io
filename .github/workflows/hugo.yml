@@ -39,7 +39,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Hugo Theme
         run: |
-          mkdir themes && git clone https://github.com/LucasVadilho/heyo-hugo-theme themes/heyo-hugo-theme
+          pwd && ls && mkdir themes && git clone https://github.com/LucasVadilho/heyo-hugo-theme themes/heyo-hugo-theme && ls
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
