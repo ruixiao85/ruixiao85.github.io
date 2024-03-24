@@ -1,4 +1,4 @@
-archive
-theme/**
+themes/**
 docs/**
 public/**
+resources/**

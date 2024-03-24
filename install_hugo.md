@@ -21,6 +21,10 @@ hugo server --themesDir ../..
 ```ps1
 # back to project root directory
 Copy-Item -Path themes/heyo-hugo-theme/exampleSite/* -Destination . -Recurse
+
+# git submodule add https://github.com/LucasVadilho/heyo-hugo-theme themes/heyo-hugo-theme
+# git submodule add https://github.com/mfg92/hugo-shortcode-gallery.git themes/hugo-shortcode-gallery
+
 hugo
 
 ```

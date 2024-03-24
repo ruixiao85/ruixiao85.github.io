@@ -1,5 +1,5 @@
 title = "RuiXiao85.Net"
-theme = "heyo-hugo-theme"
+theme = ["heyo-hugo-theme", "hugo-shortcode-gallery"]
 baseURL = "."
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -50,7 +50,7 @@ paginate = 10
 # you can also enable or disable it per page
 [params.sketch]
   enable = true
-  displayOptions = true
+  displayOptions = false
   # Graph, Digital Rain, or Circles
   use = "Digital Rain"
   # JSON that is passed to the sketch constructor
@@ -110,19 +110,19 @@ identifier = "about"
 url = "/about/"
 
 [[Languages.cn.menu.main]]
-name = "Home"
+name = "主页"
 identifier = "home"
 weight = 100
 url = "/cn/"
 
 [[Languages.cn.menu.main]]
-name = "Blog"
+name = "贴文"
 weight = 200
 identifier = "posts"
 url = "/post/"
 
 [[Languages.cn.menu.main]]
-name = "Sobre"
+name = "关于"
 weight = 300
 identifier = "about"
 url = "/about/"
