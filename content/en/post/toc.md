@@ -1,5 +1,5 @@
 ---
-author: Lucas David Vadilho
+author: Rui Xiao
 title: Table of Contents
 date: 2023-08-04
 tags: 
@@ -30,7 +30,7 @@ This post has the following front-matter:
 
 ```yaml
 ---
-author: Lucas David Vadilho
+author: Rui Xiao
 title: Table of Contents
 date: 2023-08-01
 showToc: true

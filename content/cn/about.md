@@ -1,5 +1,5 @@
 ---
-author: Lucas David Vadilho
+author: Rui Xiao
 title: "About"
 description: "About heyo"
 date: 2023-08-01
