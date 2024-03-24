@@ -18,12 +18,10 @@ paginate = 10
 
 [Languages]
   [Languages.en]
-    contentDir = "content/en"
     weight = 1
     LanguageName = "en"
 
   [Languages.cn]
-    contentDir = "content/cn"
     weight = 2
     LanguageName = "中文"
 
