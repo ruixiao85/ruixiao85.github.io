@@ -1,0 +1,272 @@
+# 肖氏家谱
+
+## 肖祖荫-李邦珍 祖辈至今
+
+```mermaid
+
+flowchart LR
+
+%% Style %%
+classDef man fill:#63daff,stroke:#000,color:#000
+classDef wom fill:#ffafdf,stroke:#000,color:#000
+classDef fam fill:#eeff88,stroke:#000,color:#000
+
+xzy[肖祖荫\n1936-10-08\n丙子年八月廿三]:::man
+lbz(李邦珍\n1939-01-23\n戊寅年腊月初四\n2016-03-23\n丙申年二月十五):::wom
+subgraph xlanlx[肖李 安徽郎溪]
+  xzy --- lbz
+end
+xjy[肖家芸\n1957-05-11\n丁酉年四月十二]:::man
+xjf[肖家凤\n1962-12-06\n壬寅年冬月初十]:::wom
+xjc[肖家存\n1968-03-09\n戊申年二月十一]:::wom
+xm[肖敏\n1973-03-27\n癸丑年二月廿三]:::wom
+xjp[肖家平\n1978-08-17\n戊午年七月十四]:::man
+xlanlx:::fam --> xjy & xjf & xjc & xm & xjp
+
+glc[葛立慈\n1957-09-28\n丁酉年闰八月初五]:::wom
+subgraph xganwh[肖葛 安徽芜湖]
+  xjy & glc
+end
+xr[肖睿\n1985-12-10\n乙丑年十月廿九]:::man
+xganwh:::fam --> xr
+
+yjx[俞静侠\n1994-12-14\n甲戌年冬月十二]:::wom
+subgraph xyanjx[肖俞 安徽 江西]
+  xr & yjx
+end
+xyanjx:::fam
+
+qzp[钱忠平\n1962-08-27\n壬寅年七月廿八]:::man
+qj[钱婧\n1987-08-22\n丁卯年闰六月廿八]:::wom
+qw[钱炜\n1989-02-17\n己巳年正月十二]:::man
+subgraph qxanlx[钱肖 安徽郎溪]
+  qzp & xjf
+end
+qxanlx:::fam --> qj & qw
+
+qxf[全相福\n1983-03-29\n癸亥年二月十五]:::man
+qcy[全灿宇\n2016-10-07\n丙申年九月初七]:::man
+subgraph qqahcx[全钱 黑龙江 安徽]
+  qxf & qj
+end
+qqahcx:::fam --> qcy
+
+lcm[刘春梅\n1987-06-14\n丁卯年五月十九]:::wom
+qyr[钱奕然\n2014-06-26\n甲午年五月廿九]:::wom
+qjy[钱郡奕\n2020-11-29\n庚子年十月十五]:::man
+subgraph qlahlx[钱刘 安徽郎溪]
+  qw & lcm
+end
+qlahlx:::fam --> qyr & qjy
+
+lhl[李红亮\n1967-12-22\n丁未年冬月廿一]:::man
+subgraph lxanlx[李肖 安徽郎溪]
+  lhl & xjc
+end
+lm[李萌\n1994-01-20\n癸酉年腊月初九]:::man
+lxanlx:::fam --> lm
+
+xls[许利顺\n1973-08-25\n癸丑年七月廿七]:::man
+subgraph xxahlx[许肖 安徽郎溪]
+  xls & xm
+end
+xcx[许驰翔\n2002-12-30\n壬午年冬月廿七]:::man
+xxahlx:::fam --> xcx
+
+zfh[周福花\n1979-01-25\n戊午年腊月廿七]:::wom
+subgraph xzahlx[肖周 安徽郎溪]
+  xjp & zfh
+end
+xmx[肖梦欣\n2001-09-15\n辛巳年七月廿八]:::wom
+xzahlx:::fam --> xmx
+
+```
+
+## 肖祖荫-李邦珍 上两代无小辈
+
+```mermaid
+
+flowchart LR
+
+%% Style %%
+classDef man fill:#63daff,stroke:#000,color:#000
+classDef wom fill:#ffafdf,stroke:#000,color:#000
+classDef fam fill:#eeff88,stroke:#000,color:#000
+
+
+xtg[肖廷贵]:::man
+xwz[未知]:::wom
+subgraph xwanlx[肖未 安徽郎溪?]
+  xtg & xwz
+end
+xsl[肖守良]:::man
+xsz[肖守珍]:::wom
+xsd[肖守德]:::man
+xwanlx:::fam --> xsl & xsz & xsd
+
+xys[杨氏]:::wom
+subgraph xyanwh[肖杨]
+  xsl & xys
+end
+xzy[肖祖荫\n1936-10-08\n丙子年八月廿三]:::man
+xyz[肖玉珍]:::wom
+xyanwh:::fam --> xzy & xyz
+
+lbz(李邦珍\n1939-01-23\n戊寅年腊月初四\n2016-03-23\n丙申年二月十五):::wom
+subgraph xlanlx[肖李 安徽郎溪]
+  xzy & lbz
+end
+xjy1957[肖家芸\n1957-05-11\n丁酉年四月十二]:::man
+xjf[肖家凤\n1962-12-06\n壬寅年冬月初十]:::wom
+xjc[肖家存\n1968-03-09\n戊申年二月十一]:::wom
+xm[肖敏\n1973-03-27\n癸丑年二月廿三]:::wom
+xjp[肖家平\n1978-08-17\n戊午年七月十四]:::man
+xlanlx:::fam --> xjy1957 & xjf & xjc & xm & xjp
+
+glc[葛立慈\n1957-09-28\n丁酉年闰八月初五]:::wom
+subgraph xganwh[肖葛 安徽芜湖]
+  xjy1957 & glc
+end
+xganwh:::fam
+
+qzp[钱忠平\n1962-08-27\n壬寅年七月廿八]:::man
+subgraph qxanlx[钱肖 安徽郎溪]
+  qzp & xjf
+end
+qxanlx:::fam
+
+lhl[李红亮\n1967-12-22\n丁未年冬月廿一]:::man
+subgraph lxanlx[李肖 安徽郎溪]
+  lhl & xjc
+end
+lxanlx:::fam
+
+xls[许利顺\n1973-08-25\n癸丑年七月廿七]:::man
+subgraph xxahlx[许肖 安徽郎溪]
+  xls & xm
+end
+xxahlx:::fam
+
+zfh[周福花\n1979-01-25\n戊午年腊月廿七]:::wom
+subgraph xzahlx[肖周 安徽郎溪]
+  xjp & zfh
+end
+xzahlx:::fam
+
+ysj[杨守金]:::man
+subgraph xyanlx[肖杨]
+  ysj & xyz
+end
+ygm[杨先美 美子]:::wom
+ygy[杨先英 友子]:::wom
+ygw[杨先稳 满意]:::man 
+xyanlx:::fam --> ygm & ygy & ygw
+
+
+cmc[陈明川]:::man
+subgraph cyanlx[陈杨]
+  cmc & ygm
+end
+cyanlx:::fam
+
+jwz[姜维珍]:::man
+subgraph jyanlx[姜杨]
+  jwz & ygy
+end
+jyanlx:::fam
+
+xjy[向家云]:::wom
+subgraph yxanlx[杨向]
+  ygw & xjy
+end
+yxanlx:::fam
+
+why[吴恒义]:::man
+subgraph wxanlx[吴肖]
+  why & xsz
+end
+whc[吴怀诚]:::man
+whh[吴怀和]:::man
+whq[吴怀清]:::man
+wyz[吴云子]:::wom
+wcz[吴翠子]:::wom
+wxanlx:::fam -->  whc & whh & whq & wyz & wcz
+
+xgs[葛氏]:::wom
+subgraph xgwz[肖葛]
+  xsd & xgs
+end
+xzd[肖志弟 二姑\n子 小凌子]:::wom
+xsn[肖三女 三姑\n子 爱平]:::wom
+xdf[肖德福 贵子佬\n子 双宝]:::man
+xgwz:::fam --> xzd & xsn & xdf
+
+```
+
+
+# 代码
+
+```python
+#! pip install borax
+from borax.calendars.lunardate import LunarDate
+today=LunarDate.today()
+today
+today.animal
+today.year
+today.month
+today.day
+print(today.strftime('%Y年%L%M月%D'))
+print(today.strftime('今天的干支表示法为：%G'))
+
+LunarDate.from_solar_date(2020,10,1)
+
+def print_both(dt):
+  print(dt.to_solar_date().strftime('%Y-%m-%d'), end='')
+  print("\\n", end='')
+  print(dt.strftime('%o年%L%M月%D'), end='')
+  # print(dt.strftime('%Y年%L%M月%D'))
+  print()
+  # print(dt.strftime('%G'))
+
+def lunar(y,m,d, name=None):
+  if name: print(name, end='\\n')
+  print_both(LunarDate(y, m, d))
+
+def solar(y,m,d, name=None):
+  if name: print(name, end='\\n')
+  print_both(LunarDate.from_solar_date(y, m, d))
+
+
+solar(1936, 10, 8 , "肖祖荫")
+lunar(1938, 12, 4, "李邦珍")
+lunar(2016, 2, 15, "李邦珍")
+
+solar(1957, 9, 28, "葛立慈")
+lunar(1957, 4, 12, "肖家芸")
+solar(1985, 12, 10, "肖睿")
+lunar(1994, 11, 12, "俞静侠")
+
+solar(1973, 3, 27, "肖敏")
+solar(1973, 8, 25, "许利顺")
+solar(2002, 12, 30,"许驰翔")
+
+lunar(1978, 7, 14, "肖家平")
+lunar(1978, 12, 27, "周福花")
+lunar(2001, 7, 28, "肖梦欣")
+
+solar(1962, 8, 27, "钱忠平")
+solar(1962, 12, 6, "肖家凤")
+solar(1989, 2, 17, "钱炜")
+solar(1987, 6, 14, "刘春梅")
+solar(2014, 6, 26, "钱奕然")
+solar(2020, 11, 29, "钱郡奕")
+solar(1987, 8, 22, "钱婧")
+solar(1983, 3, 29, "全相福")
+solar(2016, 10, 7, "全灿宇")
+
+solar(1967, 12, 22, "李红亮")
+solar(1994, 1, 20, "李萌")
+solar(1968, 3, 9, "肖家存")
+
+```
+
