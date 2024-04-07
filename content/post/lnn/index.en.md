@@ -63,11 +63,9 @@ Variations of U-Nets were built to perform
  - **single-class segmentation**
     - output: sigmoid
     - loss: dice & binary crossentropy
-    - metrics: dice
  - **multi-class segmentation**
     - output: softmax
     - loss: multiclass crossentropy
-    - metrics: accuracy
 
 Among them, dual-frame slightly outperform U-Net with single-frame.
 Although more time consuming, single-class segmentation combined with argmax achieved a better classification results than those done by one multi-class segmentation model,
