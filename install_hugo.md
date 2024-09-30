@@ -3,14 +3,19 @@
 conda install -c conda-forge nodejs
 npm install postcss-cli
 
+winget install --id=Hugo.Hugo.Extended -e
+$env:PATH += ";%LOCALAPPDATA%\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe"
+
 mkdir themes
 cd themes
 
-# git clone https://github.com/apvarun/blist-hugo-theme.git blist
-# cd blist/exampleSite/
-# hugo serve --themesDir ../..
-
+git clone https://github.com/mfg92/hugo-shortcode-gallery.git
 git clone https://github.com/LucasVadilho/heyo-hugo-theme
+
+
+# git clone https://github.com/apvarun/blist-hugo-theme.git blist
+
+# try an example
 cd heyo-hugo-theme/exampleSite
 hugo server --themesDir ../..
 
